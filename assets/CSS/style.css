@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-wrap:wrap;
+}
+
+/* HEADER */
+
+/* header styling */
+header {
+    padding: 20px;
+    background-color: #474a4b;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 24px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}
+/* BODY */
+
+/* background color*/
+body {
+    background-color: #bbbbb9;
+}
+
+/*** SECTIONS ***/
+
+h1 {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 40px;
+}
+
+/* CONTAINERS */
+
+/* About Me Container */
+.container-1 {
+    display: flex;
+}
+
+.about-me {
+    flex: 0.75;
+    padding-top: 2%;
+    padding-right: 1%;
+    border-right: black 5px solid;
+    text-align: right;
+    width: 30%;
+}
+
+.about-me-text {
+    flex: 3;
+    padding-top: 1.5%;
+    padding-left: 3%;
+    width: 70%;
+}
+
+/* Work Container */
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.work {
+    flex: 0.66;
+    padding-top: 3%;
+    border-right: black 5px solid;
+    width: 30%;
+    text-align: right;
+    padding-right: 1%;
+}
+
+.work-photos {
+    width: 70%;
+    align-items: right;
+}
+
+/* NEED TO FIND A WAY TO MAKE THIS PIC TAKE UP WHOLE FIRST LINE OF WORK */
+.surf {
+    /* flex: 1; */
+    width: 800px;
+    height: 400px;
+    order: 0;
+}
+
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background-color: #2aefcb;
+    border:#474a4b solid 3px;
+    z-index: 1;
+}
+
+.up {
+    top: 30%;
+}
+
+.dog {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    order: 1;
+}
+
+.cherry {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    order: 2;
+}
+
+.dice {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    order: 3;
+}
+
+.meep {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    order: 4;
+}
+
+/* Footer Container */
+.container-3 {
+    display: flex;
+}
+
+.contact-me {
+    flex-direction: row;
+    flex: 0.242;
+    padding-top: 1%;
+    text-align: right;
+    padding-right: 1%;
+    border-right: black 5px solid;
+    width: 30%;
+}
+
+.contact-info {
+    display: flex;
+    flex: 2;
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+    list-style-type: none;
+    /* padding: 1%; */
+}
+
+.list-info {
+    justify-content: space-around;
+}
+
+footer ul li {
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+/* Added some padding and styling for the photos */
+img {
+    padding: 8px;
+    border: 1px solid #bfbfbf;
+    background-color: #474a4b;
+    display: block;
+    float: right;
+    z-index: 0;
+    /* width:  400px;
+    height: 350px; */
+}
+
+
+/* hover to change color over photos */
+img:hover {
+    background-color: #57b3bb;
+    color: #89bdb7;
+}
+
+
+
+/* I forgot what this does but it doesnt seem to work */
+/* :root {
+    --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+} */
+
+
