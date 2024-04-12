@@ -155,6 +155,7 @@ h1 {
     text-align: right;
     border-right: black 5px solid;
     padding: 20px;
+    scroll-behavior: smooth;
 }
 
 .contact-info {
@@ -176,6 +177,11 @@ img {
     z-index: 0;
 }
 
+.me {
+    border: none;
+    height: 200px;
+    width: 150px;
+}
 
 /* hover to change color over photos */
 img:hover {
@@ -183,4 +189,6 @@ img:hover {
     color: #89bdb7;
 }
 
-
+@media screen and (max-width: 768px) {
+    flex-direction::content 
+}
