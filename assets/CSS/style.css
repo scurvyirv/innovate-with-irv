@@ -95,26 +95,23 @@ h1 {
     padding: 20px;
 }
 
-/* NEED TO FIND A WAY TO MAKE THIS PIC TAKE UP WHOLE FIRST LINE OF WORK */
 .surf {
     width: 800px;
     height: 400px;
     order: 0;
 }
 
-
 .parent {
+    display:inline;
     position: relative;
 }
 
-
 .child {
     position: absolute;
-    top: 60px;
-    left: 10px;
-    background-color: #2aefcb;
+    bottom: 11px;
+    left: 8px;
+    background-color: #89bdb7;
     border:#474a4b solid 3px;
-    /* z-index: 1; */
 }
 
 .dog {
@@ -165,15 +162,15 @@ h1 {
     justify-content: space-around;
 }
 
-
+/* MISCELLANEOUS */
 
 /* Added some padding and styling for the photos */
 img {
     padding: 8px;
     border: 1px solid #bfbfbf;
     background-color: #474a4b;
-    display: block;
-    float: right;
+    /* display: block; */
+    /* float: right; */
     z-index: 0;
 }
 
@@ -181,6 +178,7 @@ img {
     border: none;
     height: 200px;
     width: 150px;
+    float: right;
 }
 
 /* hover to change color over photos */
