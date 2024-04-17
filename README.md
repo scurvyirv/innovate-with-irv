@@ -3,4 +3,4 @@
 
 <h4> Visit us at <a href="https://scurvyirv.github.io/innovate-with-irv/"> Innovate with Irv</a> to see my journey through the world of coding! </h4>
 
-![alt text](assets/images/innovate-screenshot.png)
+![alt text](assets/images/updated-IWI-screenshot.png)

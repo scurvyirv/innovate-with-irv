@@ -24,7 +24,7 @@
                     <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="https://scurvyirv.github.io/horiseon-solutions/">HTML Project: Horiseon Solutions</a>
+                    <a href="https://scurvyirv.github.io/horiseon-solutions/">Horiseon Solutions</a>
                 </li>
             </ul>
         </nav>
@@ -33,11 +33,11 @@
     <!--about me section with text-->
     <section class="container-1">
         <h1 class="about-me">About Me</h1>
-        <h4 class="about-me-text">Hi! I'm Irv and welcome to my page! I want to showcase what I've learned during my coding bootcamp. Thus far, I can construct, analyze and debug HTML, CSS and, recently, JavaScript. I am very new, so my attempts are as feeble as the picture of me holding up the leaning tower of Pisa! Stay tuned for more tricks I shove up my sleeve. For now, enjoy some stock photos I've put up as place holders since I have nothing more to showcase at the moment...
-            
+        <div class="about-me-text">
+            <h4>Hi! I'm Irv and welcome to my page! I want to showcase what I've learned during my coding bootcamp. Thus far, I can construct, analyze and debug HTML, CSS and, recently, JavaScript. I am very new, so my attempts are as feeble as the picture of me holding up the leaning tower of Pisa! Stay tuned for more tricks I shove up my sleeve. For now, enjoy some stock photos I've put up as place holders since I have nothing more to showcase at the moment...</h4>
             <img src="./assets/images/me.png", alt="this is me!" class="me"/>
-
-            <p>My first application primarily focused on proper or semantic HTML. It is listed in the upper right corner of the page. The project I have is called Horiseon Solutions. Feel free to click on the link to be directed to my first completed project where I debug a non-semantic page into a semantic HTML page. </p> </h4>
+            <p>My first application primarily focused on proper or semantic HTML. It is accessible in two places: the large image below with the label 'HTML' or in the link in the upper right corner of the page labeled 'Horiseon-Solutions'. In this project, I attempt my first debug to a non-semantic page in hopes of turning it into a semantic HTML page. </p> 
+        </div>
     </section>
 
     <!--work section with photos-->
@@ -45,25 +45,27 @@
         <h1 class="work">Work</h1>
         <article class="work-photos">  
             <section class="parent">       
-                <img src="./assets/images/surf.jpeg", alt="this is a surfer surfing" class="surf"/>
-                    <h3 class="child">Surf</h3>
-            </section>                  
-            <section class="parent">
-                <img src="./assets/images/staffy.jpeg", alt="this is a staffy" class="dog"/>
-                    <h3 class="child">Dog</h3>
-            </section>
-            <section class="parent">
-                <img src="./assets/images/cherry.png", alt="this is a cherry" class="cherry"/>
-                    <h3 class="child">Cherry</h3>
-            </section>
-            <section class="parent">
-                <img src="./assets/images/dice.png", alt="this is a dice" class="dice"/>
-                    <h3 class="child">Dice</h3>
-            </section>
-            <section class="parent">
-                <img src="./assets/images/meep.png", alt="this expression is meh" class="meep"/>
-                    <h3 class="child">Meep</h3>
-            </section>
+                <a href="https://scurvyirv.github.io/horiseon-solutions/"><img src="./assets/images/horiseon-cropped.png", alt="this is Horiseon Solutions, an HTML project" class="horiseon"/></a>
+                    <h3 class="child">HTML</h3>
+            </section>    
+            <div class="child-container">           
+                <section class="item">
+                    <img src="./assets/images/staffy.jpeg", alt="this is a staffy" class="dog"/>
+                        <h3 class="child">Dog</h3>
+                </section>
+                <section class="item">
+                    <img src="./assets/images/cherry.png", alt="this is a cherry" class="cherry"/>
+                        <h3 class="child">Cherry</h3>
+                </section>
+                <section class="item">
+                    <img src="./assets/images/dice.png", alt="this is a dice" class="dice"/>
+                        <h3 class="child">Dice</h3>
+                </section>
+                <section class="item">
+                    <img src="./assets/images/meep.png", alt="this expression is meh" class="meep"/>
+                        <h3 class="child">Meep</h3>
+                </section>
+            </div>   
         </article>
     </section>
     <!-- </section> -->
