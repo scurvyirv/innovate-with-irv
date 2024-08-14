@@ -183,6 +183,11 @@ h1 {
     height: 100%;
 }
 
+.mongo {
+    width: 100%;
+    height: 100%;
+}
+
 /* Contact Me Container */
 .container-3 {
     width: 100%;
