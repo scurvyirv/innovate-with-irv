@@ -11,7 +11,7 @@
 /* header styling */
 header {
     padding: 20px;
-    background-color: #474a4b;
+    background-color: #89bdb7;
     color: #ffffff;
 }
 
@@ -44,7 +44,7 @@ a:active {
 
 /* background color*/
 body {
-    background-color: #bbbbb9;
+    background-color: #c5d3e1;
 }
 
 /*** SECTIONS ***/
@@ -139,6 +139,46 @@ h1 {
 }
 
 .project-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.node-js {
+    width: 100%;
+    height: 100%;
+}
+
+.oop {
+    width: 100%;
+    height: 100%;
+}
+
+.exp {
+    width: 100%;
+    height: 100%;
+}
+
+.postgresql {
+    width: 100%; 
+    height: 100%;
+}
+
+.orm {
+    width: 100%;
+    height: 100%;
+}
+
+.mvc {
+    width: 100%;
+    height: 100%;
+}
+
+.regex {
+    width: 100%;
+    height: 100%;
+}
+
+.project-2 {
     width: 100%;
     height: 100%;
 }
