@@ -44,7 +44,10 @@ a:active {
 
 /* background color*/
 body {
-    background-color: #c5d3e1;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #c5d3e1, #89bdb7);
+    margin: 20px;
 }
 
 /*** SECTIONS ***/
@@ -241,4 +244,15 @@ img:hover {
 .child-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    .item {
+        flex: 1 1 100%;
+    }
 }
